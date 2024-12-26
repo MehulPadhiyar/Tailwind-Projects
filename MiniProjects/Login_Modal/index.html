@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Login Modal</title>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Mulish:wght@300;400;500;600;700&family=Rokkitt:wght@600;700&display=swap"
+        rel="stylesheet" />
+    <link rel="stylesheet" href="./style/output.css">
+</head>
+
+<body class="h-screen">
+    <div class="h-full bg-rose-50 flex justify-center items-center">
+        <div class="flex flex-col bg-white p-6 relative rounded-xl shadow-2xl md:flex-row md:p-0">
+
+            <div class="pb-12 md:p-20">
+                <div class="flex justify-between">
+                    <h2 class="font-mono text-4xl font-bold mb-4">Log In</h2>
+                </div>
+                <p class="max-w-sm mb-12 font-light font-sans text-gray-600">Log in to your account to upload or
+                    download
+                    pictures,
+                    videos or
+                    music.</p>
+                <input placeholder="Enter your email address" type="email" name="" id=""
+                    class="w-full border-2 p-6 rounded-md font-light text-md">
+
+                <div class="text-center flex flex-col md:flex-row md:py-6 md:justify-between">
+                    <a href="#" class="block my-6 font-thin text-cyan-700 text-md hover:underline">Forgot password</a>
+                    <button
+                        class="group py-6 rounded-md flex justify-center text-white bg-cyan-700 w-full font-bold space-x-2 md:w-40 md:mb-6 duration-150 hover:-translate-y-[1px] hover:shadow-lg"><span>Next</span>
+                        <svg xmlns="http://www.w3.org/2000/svg" class="w-7 duration-150 group-hover:translate-x-1"
+                            viewBox="0 0 24 24" stroke-width="1.5" stroke="#ffffff" fill="none" stroke-linecap="round"
+                            stroke-linejoin="round">
+                            <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                            <line x1="5" y1="12" x2="19" y2="12" />
+                            <line x1="13" y1="18" x2="19" y2="12" />
+                            <line x1="13" y1="6" x2="19" y2="12" />
+                        </svg></button>
+                </div>
+                <div class="flex flex-col items-center border-t-2">
+                    <p class="text-sm p-6 text-gray-400">or log in with</p>
+                    <div class="w-full flex flex-col space-y-6 font-thin md:flex-row md:space-y-0 md:space-x-4">
+                        <button
+                            class="py-2 w-full flex justify-center items-center space-x-3 border-2 rounded-md md:py-0 duration-150 hover:-translate-y-0.5 hover:shadow-xl"><img
+                                src="img/facebook.png" alt="facebook icon" class="size-9"><span>Facebook</span></button>
+
+                        <button
+                            class="py-2 w-full flex justify-center items-center border-2 rounded-md space-x-3 duration-150 hover:-translate-y-0.5 hover:shadow-xl"><img
+                                src="img/google.png" alt="google icon" class="size-9"><span>Google</span></button>
+                    </div>
+                </div>
+            </div>
+
+            <div>
+                <img src="./img/image (1).jpg" alt="water image"
+                    class="w-[430px] min-h-[650px] overflow-hidden hidden md:block">
+            </div>
+
+            <button
+                class="size-10 bg-white rounded-full flex justify-center items-center absolute top-4 right-4 hover:-translate-y-1 hover:text-gray-400 duration-150"><svg
+                    xmlns="http://www.w3.org/2000/svg" class="w-6 h-6 text-black hover:text-gray-400"
+                    viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" fill="none" stroke-linecap="round"
+                    stroke-linejoin="round">
+                    <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+                    <line x1="18" y1="6" x2="6" y2="18" />
+                    <line x1="6" y1="6" x2="18" y2="18" />
+                </svg></button>
+
+        </div>
+    </div>
+</body>
+
+</html>
